@@ -1,0 +1,45 @@
+def a():
+    # force("mass*acceleration")
+    mass=int(input("what is mass"))
+    acceleration=int(input("what is acceleration"))
+    print(mass*acceleration)
+
+def b():
+    # velocity("displacement/time")
+    displacement=int(input("what is displacement"))
+    time=int(input("what is time"))
+    print(displacement/time)=int
+
+def c():
+    # density("mass/volume")
+    mass=int(input("what is mass"))
+    volume=int(input("what is volume"))
+    print(mass/volume)
+
+def d()
+    # speed("distance/time")
+    distance=int(input("what is distance"))
+    time=int(input("what is time"))
+    print(distance/time)
+
+def e()
+    # impulse("force*time")
+    force=int(input("what is force"))
+    time=int(input("what is time"))
+    print(force*time)
+
+def main():
+    answer = input("WHAT OPERATION DO YOU WANT TO PERFORM")
+
+    if answer == "a":
+        a()
+    elif answer == "b":
+        b()
+    elif answer == "c":
+        c()
+    elif answer == "d":
+        d()
+    else:
+        print("ERROR")
+    if __name__ == '__main__':
+        main()
